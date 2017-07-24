@@ -12,9 +12,9 @@
   <body style="background-color: #ffffd9;">
   	<script type="text/javascript">
 		if (screen.width <= 700) {
-		  <%= render '/layouts/navdrop' %>
+		  document.location = "/layouts/navdrop";
 		} else {
-		  <%= render '/layouts/navnormal' %>
+		  document.location = "/layouts/navnormal";
 		}
 	</script>
     <%= yield %>
