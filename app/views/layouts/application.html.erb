@@ -10,13 +10,7 @@
   </head>
 
   <body style="background-color: #ffffd9;">
-  	<script type="text/javascript">
-		if (screen.width <= 700) {
-		  document.location = "/layouts/navdrop";
-		} else {
-		  document.location = "/layouts/navnormal";
-		}
-	</script>
+  	<%= render '/layouts/nav' %>
     <%= yield %>
   </body>
 </html>
