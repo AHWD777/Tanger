@@ -21,5 +21,15 @@
 
 .navbar-default {
 	background-color: #fffdad;
-	border-color: #848484;
+	border-color: black;
+}
+
+.fieldset {
+	border-radius : 12px;
+	border-width: 3px;
+	border-color: red;
+	border-style: solid;
+	background-color: #fffdad; 
+	margin-left: 200px;
+	margin-right: 200px;
 }
