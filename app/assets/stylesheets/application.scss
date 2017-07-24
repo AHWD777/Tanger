@@ -33,3 +33,12 @@
 	margin-left: 200px;
 	margin-right: 200px;
 }
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu .dropdown:hover .dropdown-menu:hover {
+    background-color: #fffdad;
+    color: #fffdad;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
